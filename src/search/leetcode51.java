@@ -3,6 +3,8 @@ package search;
 import java.util.*;
 
 // 51. N 皇后 https://leetcode-cn.com/problems/n-queens/
+// 精彩解析： https://leetcode.com/problems/n-queens/discuss/19808/Accepted-4ms-c++-solution-use-backtracking-and-bitmask-easy-understand
+// 精彩解析： https://leetcode.com/problems/n-queens/discuss/19810/Fast-short-and-easy-to-understand-python-solution-11-lines-76ms
 public class leetcode51 {
     public List<List<String>> solveNQueens(int n) {
         char[][] board = new char[n][n];
